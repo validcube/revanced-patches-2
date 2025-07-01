@@ -285,10 +285,6 @@ Et saa ilmoituksia odottamattomista tapahtumista."</string>
   <string name="revanced_hide_description_components_screen_title">Videon kuvaus</string>
   <string name="revanced_hide_description_components_screen_summary">Piilota tai näytä videon kuvauksen osia</string>
   <string name="revanced_hide_filter_bar_screen_title">Suodatinpalkki</string>
-  <string name="revanced_hide_filter_bar_screen_summary">Piilota tai näytä suodatinpalkki syötteessä, haussa ja liittyvissä videoissa</string>
-  <string name="revanced_hide_filter_bar_feed_in_feed_title">Piilota syötteessä</string>
-  <string name="revanced_hide_filter_bar_feed_in_feed_summary_on">Piilotettu syötteessä</string>
-  <string name="revanced_hide_filter_bar_feed_in_feed_summary_off">Näytetään syötteessä</string>
   <string name="revanced_hide_filter_bar_feed_in_search_title">Piilota hakutuloksissa</string>
   <string name="revanced_hide_filter_bar_feed_in_search_summary_on">Piilotettu hakutuloksissa</string>
   <string name="revanced_hide_filter_bar_feed_in_search_summary_off">Näytetään hakutuloksissa</string>
@@ -561,6 +557,9 @@ Säädä äänenvoimakkuutta pyyhkäisemällä pystysuoraan näytön oikealta pu
   <string name="revanced_hide_clip_button_summary_on">Klippi-painike on piilotettu</string>
   <string name="revanced_hide_clip_button_summary_off">Klippi-painike näytetään</string>
   <!-- 'Save' should be translated with the same localized wording that YouTube displays. -->
+  <string name="revanced_hide_save_button_title">Piilota Tallenna</string>
+  <string name="revanced_hide_save_button_summary_on">Tallenna-painike on piilotettu</string>
+  <string name="revanced_hide_save_button_summary_off">Tallenna-painike näytetään</string>
   </patch>
   <patch id="layout.buttons.navigation.navigationButtonsPatch">
   <string name="revanced_navigation_buttons_screen_title">Navigointipainikkeet</string>
@@ -767,6 +766,9 @@ Jos haluat nähdä sen, aseta \"Naamioi videovirrat\" iOS TV:ksi"</string>
   <string name="revanced_hide_shorts_upcoming_button_title">Piilota Tulossa-painike</string>
   <string name="revanced_hide_shorts_upcoming_button_summary_on">Tulossa-painike on piilotettu</string>
   <string name="revanced_hide_shorts_upcoming_button_summary_off">Tulossa-painike näytetään</string>
+  <string name="revanced_hide_shorts_effect_button_title">Piilota Tehoste-painike</string>
+  <string name="revanced_hide_shorts_effect_button_summary_on">Tehoste-painike on piilotettu</string>
+  <string name="revanced_hide_shorts_effect_button_summary_off">Tehoste-painike näytetään</string>
   <string name="revanced_hide_shorts_green_screen_button_title">Piilota Vihertausta-painike</string>
   <string name="revanced_hide_shorts_green_screen_button_summary_on">Vihertausta-painike on piilotettu</string>
   <string name="revanced_hide_shorts_green_screen_button_summary_off">Vihertausta-painike näytetään</string>
@@ -948,11 +950,7 @@ Tämä ominaisuus toimii parhaiten, kun videon laatu on 720p tai alhaisempi ja k
   <string name="revanced_sb_enable_auto_hide_skip_segment_button">Piilota ohita-painike automaattisesti</string>
   <string name="revanced_sb_enable_auto_hide_skip_segment_button_sum_on">Ohita-painike piiloutuu muutaman sekunnin kuluttua</string>
   <string name="revanced_sb_enable_auto_hide_skip_segment_button_sum_off">Ohita-painike näytetään koko osion ajan</string>
-  <string name="revanced_sb_general_skiptoast">Näytä ilmoitus ohitettaessa</string>
-  <string name="revanced_sb_general_skiptoast_sum_on">Ponnahdusilmoitus näytetään, kun osio ohitetaan automaattisesti. Napauta tästä nähdäksesi esimerkin</string>
-  <string name="revanced_sb_general_skiptoast_sum_off">Ponnahdusilmoitusta ei näytetä. Napauta tästä nähdäksesi esimerkin</string>
   <string name="revanced_sb_general_time_without">Näytä videon pituus ilman osioita</string>
-  <string name="revanced_sb_general_time_without_sum_on">Videon pituus ilman osioita, näytetään suluissa koko videon pituuden vieressä</string>
   <string name="revanced_sb_general_time_without_sum_off">Videon koko pituus näytetään</string>
   <string name="revanced_sb_create_segment_category">Uusien osioiden luominen</string>
   <string name="revanced_sb_enable_create_segment">Näytä Luo uusi osio -painike</string>
@@ -1259,7 +1257,7 @@ Minisoitin voidaan vetää pois näytöltä vasemmalle tai oikealle"</string>
   <string name="revanced_gradient_loading_screen_summary_off">Latausruudulla on yksivärinen tausta</string>
   <string name="splash_screen_animation_style_title">Aloitussivun tyyli</string>
   <string name="splash_screen_animation_style_entry_1">Väri</string>
-  <string name="splash_screen_animation_style_entry_2">Musta ja valkoinen</string>
+  <string name="splash_screen_animation_style_entry_2">Mustavalkoinen</string>
   <string name="revanced_seekbar_custom_color_title">Ota mukautettu etenemispalkin väri käyttöön</string>
   <string name="revanced_seekbar_custom_color_summary_on">Mukautettu etenemispalkin väri näytetään</string>
   <string name="revanced_seekbar_custom_color_summary_off">Alkuperäinen etenemispalkin väri näytetään</string>
